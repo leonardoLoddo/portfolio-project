@@ -1,5 +1,5 @@
-import AboutSection from "./AboutSection";
-import ProjectsSection from "./ProjectsSection";
+import AboutSection from "./About/AboutSection";
+import ProjectsSection from "./Projects/ProjectsSection";
 import Section from "./Section";
 
 export default function MainLayout() {
