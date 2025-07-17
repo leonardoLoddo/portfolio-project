@@ -1,6 +1,6 @@
-import backgroundVideo from "../assets/backgroundVideo.mp4";
+import backgroundVideo from "../../assets/backgroundVideo.mp4";
 
-export default function BackgroundVideo() {
+export default function HeaderBackgroundVideo() {
   return (
     <video
       autoPlay
