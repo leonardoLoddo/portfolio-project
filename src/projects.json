@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "src/assets/almostfinalCountdown.png",
+    "title": "The Almost Final Countdown ⏱️",
+    "description": "The Almost Final Countdown è un gioco sviluppato in React che mette alla prova la percezione del tempo del giocatore.",
+    "link": "https://github.com/leonardoLoddo/the-almost-final-countdown"
+  },
+  {
+    "id": 2,
+    "imageUrl": "src/assets/projectManager.png",
+    "title": "Project Manager 🗂️",
+    "description": "Project Manager è un’applicazione React per gestire progetti e le relative task. L’utente può creare ed eliminare progetti, e per ciascun progetto gestire un elenco di task in modo semplice e veloce.",
+    "link": "https://github.com/leonardoLoddo/project-manager"
+  },
+  {
+    "id": 3,
+    "imageUrl": "src/assets/reactQuiz.png",
+    "title": "React Quiz 🧠⚛️",
+    "description": "React Quiz è un gioco a tempo sviluppato in React, pensato per testare le conoscenze di base su React.",
+    "link": "https://github.com/leonardoLoddo/react-quiz"
+  },
+  {
+    "id": 4,
+    "imageUrl": "src/assets/placePicker.png",
+    "title": "PlacePicker 🗺️✨",
+    "description": "PlacePicker è una web app sviluppata con React che permette all’utente di selezionare le destinazioni che desidera visitare.",
+    "link": "https://github.com/leonardoLoddo/place-picker-http-requests"
+  },
+  {
+    "id": 5,
+    "imageUrl": "src/assets/investmentsCalculator.png",
+    "title": "Calcolatore Investimenti 🗺️✨",
+    "description": "PlacePicker è una web app sviluppata con React che permette all’utente di selezionare le destinazioni che desidera visitare.",
+    "link": "https://github.com/leonardoLoddo/place-picker-http-requests"
+  },
+  {
+    "id": 6,
+    "imageUrl": "src/assets/ticTacToe.png",
+    "title": "Tris 🗺️✨",
+    "description": "PlacePicker è una web app sviluppata con React che permette all’utente di selezionare le destinazioni che desidera visitare.",
+    "link": "https://github.com/leonardoLoddo/place-picker-http-requests"
+  }
+]

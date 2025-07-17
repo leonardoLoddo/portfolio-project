@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function HeaderContent() {
   return (
-    <div className="z-10 px-6 md:pr-24">
+    <div className="z-10 md:mx-auto md:px-4 md:container">
       <h1 className="text-shadow-lg text-shadow-stone-900/10 font-extrabold text-white text-4xl md:text-6xl leading-tight tracking-[1rem]">
         LEONARDO
         <br />
