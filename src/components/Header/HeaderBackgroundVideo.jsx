@@ -6,6 +6,7 @@ export default function HeaderBackgroundVideo() {
       autoPlay
       muted
       loop
+      playsInline
       className="top-0 left-0 z-[-1] absolute w-full h-full object-cover"
     >
       <source src={backgroundVideo} type="video/mp4" />
