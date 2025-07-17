@@ -1,5 +1,5 @@
 import HeaderLayout from "./components/Header/HeaderLayout";
-import Main from "./components/Main";
+import MainLayout from "./components/Main/MainLayout";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <HeaderLayout />
-      <Main />
+      <MainLayout />
     </>
   );
 }

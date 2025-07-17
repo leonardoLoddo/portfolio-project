@@ -1,11 +1,11 @@
 import ProjectCard from "./ProjectCard";
-import projects from "../data/projects.json";
+import projects from "../../data/projects.json";
 
 export default function ProjectsSection() {
   return (
     <>
       <div className="mx-auto mb-4 px-4 container">
-        <h2 className="font-extrabold text-white text-2xl md:text-3xl uppercase tracking-[1rem]">
+        <h2 className="font-extrabold text-white text-2xl md:text-3xl uppercase tracking-[0.5rem]">
           I miei Progetti
         </h2>
         <p className="text-[#e3e3e3]">
@@ -20,9 +20,13 @@ export default function ProjectsSection() {
       </div>
 
       <div className="gap-0 grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 w-full">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} {...project} />
-        ))}
+        {projects.length === 0 ? (
+          <p className="text-white text-center">Nessun progetto disponibile.</p>
+        ) : (
+          projects.map((project) => (
+            <ProjectCard key={project.id} {...project} />
+          ))
+        )}
       </div>
     </>
   );

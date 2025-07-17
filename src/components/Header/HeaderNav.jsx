@@ -16,6 +16,7 @@ export default function HeaderNav() {
         <a
           href="#projects"
           className="inline-flex justify-center text-[#e3e3e3] no-underline hover:line-through uppercase tracking-widest animate-bounce"
+          aria-label="Vai alla sezione progetti"
         >
           <ChevronDown className="w-10 h-10" />
         </a>

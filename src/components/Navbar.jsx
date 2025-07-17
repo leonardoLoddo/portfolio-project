@@ -10,14 +10,17 @@ import {
   Linkedin,
   Instagram,
 } from "lucide-react";
-
+const NAVITEMS = ["Home", "Projects", "About", "Contact"];
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <nav className="top-0 left-0 z-50 fixed bg-gray-900/10 backdrop-blur w-full text-white">
+    <nav
+      role="navigation"
+      className="top-0 left-0 z-50 fixed bg-gray-900/10 backdrop-blur w-full text-white"
+    >
       <div className="flex justify-between items-center mx-auto px-4 h-20 container">
         {/* Logo */}
         <a
@@ -32,6 +35,7 @@ export default function Navbar() {
           className="md:hidden z-50 transition-transform duration-300"
           onClick={toggleMenu}
           aria-label="Toggle Menu"
+          aria-expanded={isOpen}
         >
           <div
             className={`transition-transform duration-300 ${
@@ -48,7 +52,7 @@ export default function Navbar() {
 
         {/* Desktop menu */}
         <ul className="hidden md:flex gap-4 text-sm uppercase list-none">
-          {["Home", "Projects", "About", "Contact"].map((item) => (
+          {NAVITEMS.map((item) => (
             <li key={item}>
               <a
                 href={`#${item !== "Home" ? item.toLowerCase() : ""}`}
@@ -69,7 +73,7 @@ export default function Navbar() {
       >
         <div className="flex flex-col items-center py-6 w-full">
           {/* Link section */}
-          {["Home", "Projects", "About", "Contact"].map((item, index) => (
+          {NAVITEMS.map((item, index) => (
             <a
               key={item}
               href={`#${item !== "Home" ? item.toLowerCase() : ""}`}
