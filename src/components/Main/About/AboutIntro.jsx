@@ -1,4 +1,4 @@
-import selfieImg from "../../../assets/selfie.webp";
+import selfieImg from "../../../assets/selfie.jpg";
 import { HiOutlineDownload } from "react-icons/hi";
 
 export default function AboutIntro() {
